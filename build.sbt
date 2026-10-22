@@ -19,8 +19,8 @@ lazy val core =
   crossProject(JVMPlatform, JSPlatform).crossType(CrossType.Pure)
     .settings(
       libraryDependencies ++= Seq(
-        "io.circe" %%% "circe-generic" % "0.13.0",
-        "io.circe" %%% "circe-parser" % "0.13.0",
+        "io.circe" %%% "circe-generic" % "0.14.17",
+        "io.circe" %%% "circe-parser" % "0.14.17",
         "com.github.cornerman" %%% "sloth" % "0.3.0",
         "com.propensive" %%% "magnolia" % "0.16.0",
         "org.scala-lang" % "scala-reflect" % scalaVersion.value % Provided
