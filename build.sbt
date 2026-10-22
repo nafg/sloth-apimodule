@@ -21,7 +21,7 @@ lazy val core =
       libraryDependencies ++= Seq(
         "io.circe" %%% "circe-generic" % "0.13.0",
         "io.circe" %%% "circe-parser" % "0.13.0",
-        "com.github.cornerman" %%% "sloth" % "0.3.0",
+        "com.github.cornerman" %%% "sloth" % "0.8.0",
         "com.propensive" %%% "magnolia" % "0.16.0",
         "org.scala-lang" % "scala-reflect" % scalaVersion.value % Provided
       )
